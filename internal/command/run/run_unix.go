@@ -31,7 +31,7 @@ var excludeDir string
 var includeExt string
 
 func init() {
-	CmdRun.Flags().StringVarP(&excludeDir, "excludeDir", "", excludeDir, `eg: nunu run --excludeDir="tmp,vendor,.git,.idea"`)
+	CmdRun.Flags().StringVarP(&excludeDir, "excludeDir", "", excludeDir, `eg: nunu run --excludeDir="3rdParty,cmn,tmp,oam,amf/n2proc/n2sctp/test,dhcp,udm/sidf/conf,dns,eupf,sys,vendor,.git,.idea"`)
 	CmdRun.Flags().StringVarP(&includeExt, "includeExt", "", includeExt, `eg: nunu run --includeExt="go,tpl,tmpl,html,yaml,yml,toml,ini,json"`)
 	if excludeDir == "" {
 		excludeDir = config.RunExcludeDir
