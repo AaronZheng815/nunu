@@ -2,7 +2,7 @@ module github.com/go-nunu/nunu
 
 go 1.16
 
-replace github.com/go-nunu/nunu => github.com/AaronZheng815/nunu latest
+replace github.com/go-nunu/nunu => github.com/AaronZheng815/nunu 1.0.16
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
