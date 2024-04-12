@@ -2,6 +2,8 @@ module github.com/go-nunu/nunu
 
 go 1.16
 
+replace github.com/go-nunu/nunu => github.com/AaronZheng815/nunu latest
+
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
 	github.com/duke-git/lancet/v2 v2.3.0
